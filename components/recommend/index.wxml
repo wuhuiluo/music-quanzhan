@@ -1,0 +1,33 @@
+<scroll-view style="height: {{ contentHeight }}rpx" class="scroll" scroll-y="{{ true }}">
+    <l-loadmore type="{{ type }}" l-end-class="endClass" show="{{ true }}" end-text="已经到底了">
+        <view slot="content" class="recommend">
+            <view class="recommend-content">
+                <view wx:if="{{ recommends.length > 0}}" class="slider-container">
+                    <swiper indicator-dots="{{true}}" autoplay indicator-color="hsla(0,0%,100%,.5)"
+                        indicator-active-color="hsla(0,0%,100%,.8)" circular="{{true}}">
+                        <block wx:key="index" wx:for="{{ recommends }}">
+                            <swiper-item>
+                                <image mode="widthFix" src="{{ item.picUrl }}"></image>
+                            </swiper-item>
+                        </block>
+                    </swiper>
+                </view>
+
+                <view class="recommend-list">
+                    <view class="list-title theme-font-color">热门歌单推荐</view>
+                    <view>
+                        <view class="item" wx:for="{{ discList }}">
+                            <view class="icon">
+                                <image mode="aspectFill" src="{{ item.imgurl }}"></image>
+                            </view>
+                            <view class="text">
+                                <view class="name theme-font-color">{{ item.creator.name }}</view>
+                                <view class="desc">{{ item.dissname }}</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </l-loadmore>
+</scroll-view>

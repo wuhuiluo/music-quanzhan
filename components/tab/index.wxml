@@ -1,0 +1,22 @@
+<view class="container">
+    <l-tabs
+        bind:linchange="changeTabs"
+        animated-for-line
+        animated
+        has-line
+        swiperable
+        equal-width="{{ true }}"
+        content-height="{{ contentHeight }}"
+        l-line-class="theme-background line"
+        l-active-class="theme-font-color"
+        l-inactive-class="inactive"
+        l-header-class="header-line"
+    >
+      <l-tabpanel tab="推荐" key="recommend" slot="recommend">
+        <m-recommend contentHeight="{{ contentHeight }}"></m-recommend>
+      </l-tabpanel>
+      <l-tabpanel tab="歌手" key="singer" slot="singer"></l-tabpanel>
+      <l-tabpanel tab="排行" key="rank" slot="rank"></l-tabpanel>
+      <l-tabpanel tab="搜索" key="search" slot="search"></l-tabpanel>
+    </l-tabs>
+</view>

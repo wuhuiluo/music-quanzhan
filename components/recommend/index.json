@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-loadmore": "/miniprogram_npm/lin-ui/loadmore/index"
+  }
+}

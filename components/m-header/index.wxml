@@ -1,0 +1,7 @@
+<view class="m-header">
+    <view class="icon-title"></view>
+    <text class="text theme-font-color theme-font-family">全栈音乐播放器</text>
+    <view class="mine">
+        <l-icon name="icon-user" l-class="iconfont icon-user"></l-icon>
+    </view>
+</view>

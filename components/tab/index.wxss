@@ -1,0 +1,23 @@
+@import '../../app.wxss';
+
+.container {
+    position: fixed;
+    top: 88rpx;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+}
+
+/* 标签默认状态样式 */
+
+.inactive {
+    color: #222 !important;
+}
+
+.header-line {
+    border-bottom: none !important;
+}
+
+.line {
+    width: 75% !important;
+}

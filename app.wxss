@@ -1,0 +1,153 @@
+.theme-font-color {
+  color: #00a1d6 !important;
+}
+
+.theme-font-color-a {
+  color: rgba(0, 161, 214, 0.3) !important;
+}
+
+.theme-background {
+  background: #00a1d6 !important;
+}
+
+.theme-border-color-1 {
+  border: 1px solid #00a1d6 !important;
+}
+
+.theme-background-color {
+  background-color:  #f2f2f2;
+}
+
+.theme-background-white {
+  background-color: #ffffff;
+}
+
+
+
+.disable view {
+  color: rgba(0, 161, 214, 0.3) !important;
+}
+
+.current {
+  color: #09bffb !important;
+}
+
+.currentSongText {
+  color: #09bffb !important;
+}
+
+
+
+.theme-font-family {
+  font-family: tahoma, arial, Hiragino Sans GB, 微软雅黑, simsun, sans-serif;
+}
+
+.ellipseOne {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id 643119 */
+  src: url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.eot');
+  src: url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.woff') format('woff'),
+    url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_643119_wwc8yy8pcam.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: iconfont !important;
+  color: #00a1d6 !important;
+}
+
+.l-icon-icon-play:before {
+  content: "\e622"
+}
+
+.l-icon-icon-time-out:before {
+  content: "\e600"
+}
+
+.l-icon-icon-loop:before {
+  content: "\e66d"
+}
+
+.l-icon-icon-sequence-play:before {
+  content: "\e671"
+}
+
+.l-icon-icon-random:before {
+  content: "\e672"
+}
+
+.l-icon-icon-prev-song:before {
+  content: "\e6fe"
+}
+
+.l-icon-icon-next-song:before {
+  content: "\e6ff"
+}
+
+.l-icon-icon-shoucang:before {
+  content: "\e60c";
+  color: #fb7299 !important;
+}
+
+.l-icon-icon-favoriteoutline:before {
+  content: "\e627"
+}
+
+.l-icon-icon-playlist:before {
+  content: "\e850"
+}
+
+.l-icon-icon-mini-play:before {
+  content: "\e737";
+  color: #5ecaee !important;
+}
+
+.l-icon-icon-mini-pause:before {
+  content: "\e639";
+  color: #5ecaee !important;
+}
+
+.l-icon-icon-clear:before {
+  content: "\e62e";
+}
+
+.l-icon-icon-add:before {
+  content: "\e651";
+}
+
+.l-icon-icon-favoriteoutline:before {
+  content: "\e627";
+}
+
+.l-icon-icon-clear-num:before {
+  content: "\e638";
+}
+
+.l-icon-icon-sousuo:before {
+  content: "\e653";
+}
+
+.l-icon-icon-delete:before {
+  content: "\e613";
+}
+
+.l-icon-icon-user:before {
+  content: "\e66e";
+}
+
+.l-icon-icon-musical-note:before {
+  content: "\e630";
+}
+
+.l-icon-icon-user:before {
+  content: "\e66e";
+}

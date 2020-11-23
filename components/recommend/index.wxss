@@ -1,0 +1,56 @@
+@import '../../app.wxss';
+
+/* 轮播图 */
+
+.recommend {
+    padding-top: 10rpx;
+}
+
+.slider-container image {
+    width: 100%;
+}
+
+/* 推荐歌单 */
+
+.recommend-list .list-title {
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    font-size: 28rpx;
+}
+
+.item {
+    display:flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 40rpx 40rpx 40rpx;
+}
+
+.icon {
+    flex: 0 0 120rpx;
+    width: 120rpx;
+    padding-right: 40rpx;
+}
+
+.icon image {
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    line-height: 40rpx;
+    overflow: hidden;
+    font-size: 28rpx;
+}
+
+.name {
+    margin-bottom: 20rpx;
+}
+
+.desc {
+    color: #999;
+}
